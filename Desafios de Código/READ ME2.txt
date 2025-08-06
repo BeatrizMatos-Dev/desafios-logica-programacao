@@ -1,0 +1,30 @@
+# Calculadora de Partidas Rankeadas 🎮🏆
+
+Este projeto é um desafio de lógica proposto pela DIO (Digital Innovation One), com o objetivo de desenvolver lógica de programação utilizando **funções**, **operadores**, **laços e estruturas de decisão**.
+
+## 🚀 Objetivo
+
+Calcular o saldo de vitórias de um herói com base nas partidas jogadas e classificá-lo em um nível.
+
+### 🧩 Regras de Classificação:
+
+| Saldo de Vitórias   | Nível      |
+|---------------------|------------|
+| < 10               | Ferro      |
+| 11 a 20            | Bronze     |
+| 21 a 50            | Prata      |
+| 51 a 80            | Ouro       |
+| 81 a 90            | Diamante   |
+| 91 a 100           | Lendário   |
+| >= 101             | Imortal    |
+
+## 🛠️ Tecnologias Usadas
+
+- JavaScript (ES6+)
+- Node.js ou Console do Navegador
+
+## 📋 Como Usar
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/

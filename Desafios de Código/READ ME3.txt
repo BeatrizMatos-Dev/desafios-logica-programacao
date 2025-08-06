@@ -1,0 +1,28 @@
+# Classe Herói 🦸‍♂️🗡️
+
+Projeto feito para treinar **programação orientada a objetos (POO)** em JavaScript, como parte de um desafio da DIO.
+
+## 🚀 Objetivo
+
+Criar uma classe `Heroi` com as seguintes propriedades:
+- `nome`
+- `idade`
+- `tipo` (mago, guerreiro, monge, ninja)
+
+E um método:
+- `atacar()`: imprime o ataque de acordo com o tipo de herói.
+
+### Regras de ataque por tipo:
+
+| Tipo       | Ataque              |
+|------------|---------------------|
+| mago       | magia               |
+| guerreiro  | espada              |
+| monge      | artes marciais      |
+| ninja      | shuriken            |
+
+## 📋 Exemplo de uso
+
+```js
+let heroi = new Heroi("Justiceiro Fantasma de Ferro", 32, "guerreiro");
+heroi.atacar(); // O guerreiro atacou usando espada.
